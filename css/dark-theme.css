@@ -1,0 +1,244 @@
+/**********************************/
+/*********** General CSS **********/
+/**********************************/
+body {
+	color: #f9dc37;
+	background-color: #220131; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(#000, #33014a, #33014a, #000); 
+  	position:relative; 
+    padding-bottom:100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px; 
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: #f7d305;
+}
+
+p {
+	color: #f7d305;
+}
+
+section {
+	margin: 15px;
+	padding: 10px;
+}
+
+video {
+	width: 900px;
+	height: 670px;
+	z-index: 500;
+}
+
+/**********************************/
+/*********** Top-bar CSS **********/
+/**********************************/
+.top-bar {
+	background-color: #a905f7;/* For browsers that do not support gradients */
+	background-image: linear-gradient(#650394, #a905f7, #a905f7, #650394);
+	height: 200px;
+	top: 0;
+}
+
+.logo {
+	left: 0;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 14px;
+    height: 80px;
+    width: 130px;
+	display: inline-flex;
+	position: relative;
+	float: left;
+}
+
+.heading {
+	line-height: 90px;
+	font-size: 80px;
+	font-family: 'Redressed', cursive;
+	text-align: center;
+
+}
+
+/**** navbar css start ****/
+.navbar {
+	color: #f7d305;
+	position: relative;
+	background-color: #a905f7;/* For browsers that do not support gradients */
+	background-image: linear-gradient(#650394, #a905f7, #a905f7, #650394);
+}
+
+.navbar-light .navbar-brand {
+    color: #f7d305;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fbe982;
+}
+
+.dropdown-menu {
+	background: #a905f7;
+	border: 1px solid rgba(169, 5, 247, .5)
+}
+
+.dropdown-item {
+	background: #a905f7;
+}
+
+.dropdown-item:hover {
+	background: #b21ef8;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f7d305;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #fbe982;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: auto;
+}
+/**** navbar css start ****/
+
+/**********************************/
+/*********** videos CSS ***********/
+/**********************************/
+.videos {
+	text-align: center;
+	padding: 5px;
+}
+
+.youtube {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #b21ef8;
+	border-radius: 15px;
+	text-align: center;
+	background: #a905f7;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 12px;	
+}
+
+.anime {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #b21ef8;
+	border-radius: 15px;
+	text-align: center;
+	background: #a905f7;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 12px;
+}
+
+.link {
+	color: #c6a904;
+	display: inline-block;
+	position: relative;
+	background: #650394;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 7.5px;
+	border-color: #7604ad;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.anime:hover .link {
+	color: #f7d305;
+	display: inline-block;
+}
+
+.download{
+	display: none;
+	position: absolute;
+	color: #f7d305;
+}
+
+ .link:hover span.download {
+	display: block;
+	position: absolute;
+	color: white;
+    font-size: 15px;
+    top: 26px;
+    left: 64px;
+}
+
+.stream {
+	text-align: center;
+}
+
+
+
+/**********************************/
+/*********** Footer CSS ***********/
+/**********************************/
+.footer {
+	color: #f7d305;
+	background-color: #4d1d02;/* For browsers that do not support gradients */
+	background-image: linear-gradient(#8704c6, #55037c, #55037c, #8704c6);
+	bottom: 0;
+	left: 0;
+	right: 0;
+	grid-row-start: 2;
+  	grid-row-end: 3;
+  	padding: 20px;
+  	position: fixed;
+  	height:90px;
+  	font-family: 'Ubuntu', sans-serif;
+}
+
+.theme {
+	color: #f7d305;
+	background-color: #a905f7;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 7.5px;
+	border-color: #b21ef8;
+	padding-left: 3px;
+	padding-top: 4px;
+	padding-right: 3px;
+	left: 0; 
+}
+
+.contacts {
+	align-self: center;
+	font-size: 13px;
+}
+
+.footer-subheading {
+	color: #f7d305;
+	text-align: center;
+}
+
+.icons { 
+	align-self: center;
+	font-size: 25px;
+	word-spacing: 10px;
+	color: #f7d305;
+}
+
+.icons i:hover {
+	color: #fff;
+}
+
+.info{
+	display: none;
+	position: absolute;
+	color: #f75c05;
+}
+
+ .icons i:hover span.info {
+	display: block;
+	position: absolute;
+	color: #fff;
+	background: #a905f7;
+    font-size: 15px;
+    top: 26px;
+    left: 104px;
+}

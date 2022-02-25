@@ -1,0 +1,231 @@
+/**********************************/
+/*********** General CSS **********/
+/**********************************/
+body {
+	color: black;
+	background-color: #fddecd; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(#fddecd, #feefe6, #ffffff, #fddecd); 
+  	position:relative; 
+    padding-bottom:100px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px; 
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: #4d1d02;
+}
+
+p {
+	color: #4d1d02;
+}
+
+section {
+	margin: 15px;
+}
+
+video {
+	width: 900px;
+	height: 670px;
+	z-index: 500;
+}
+
+/**********************************/
+/*********** Top-bar CSS **********/
+/**********************************/
+.top-bar {
+	background-color: #f75c05;/* For browsers that do not support gradients */
+	background-image: linear-gradient(#f75c05, #fa9d69, #fa9d69, #f75c05);
+	height: 200px;
+	top: 0;
+}
+
+.logo {
+	left: 0;
+    padding-left: 20px;
+    padding-right: 0px;
+    padding-top: 14px;
+    height: 80px;
+    width: 130px;
+	display: inline-flex;
+	position: relative;
+	float: left;
+}
+
+.heading {
+	top: 0;
+	line-height: 90px;
+	font-size: 80px;
+	font-family: 'Redressed', cursive;
+	text-align: center;
+
+}
+
+/******navbar css start******/
+.navbar {
+	color: black;
+	background-color: #f75c05;/* For browsers that do not support gradients */
+	background-image: linear-gradient(#f86c1e, #fbae82, #fbae82, #f86c1e);
+	z-index: 999;
+}
+
+.navbar a {
+	color: black;
+}
+
+.dropdown-menu {
+	background: #fbae82;
+	border: 1px solid rgba(74,28,1,.5)
+}
+
+.dropdown-item {
+	background: #fbae82;
+}
+
+.dropdown-item:hover {
+	background: #f97d37;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: auto;
+}
+/******navbar css end******/
+
+/**********************************/
+/*********** videos CSS ***********/
+/**********************************/
+.videos {
+	text-align: center;
+	padding: 5px;
+}
+
+.youtube {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7c2e03;
+	border-radius: 15px;
+	text-align: center;
+	background: #f75c05;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 12px;	
+}
+
+.anime {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7c2e03;
+	border-radius: 15px;
+	text-align: center;
+	background: #f75c05;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 12px;
+}
+
+.link {
+	color: black;
+	display: inline-block;
+	position: relative;
+	background: #f97d37;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 7.5px;
+	border-color: #4d1d02;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.anime:hover .link {
+	color: white;
+	display: inline-block;
+}
+
+.download{
+	display: none;
+	position: absolute;
+	color: #f75c05;
+}
+
+ .link:hover span.download {
+	display: block;
+	position: absolute;
+	color: white;
+    font-size: 15px;
+    top: 26px;
+    left: 64px;
+}
+
+.stream {
+	text-align: center;
+}
+
+
+
+/**********************************/
+/*********** Footer CSS ***********/
+/**********************************/
+.footer {
+	color: white;
+	background-color: #4d1d02;/* For browsers that do not support gradients */
+	background-image: linear-gradient(#4a1c01, #7c2e03, #7c2e03, #4a1c01);
+	bottom: 0;
+	left: 0;
+	right: 0;
+	grid-row-start: 2;
+  	grid-row-end: 3;
+  	padding: 20px;
+  	position: fixed;
+  	height:90px;
+  	font-family: 'Ubuntu', sans-serif;
+}
+
+.theme {
+	color: black;
+	background-color: #f97d37;
+	border-style: solid;
+	border-width: 1.5px;
+	border-radius: 7.5px;
+	border-color: #4d1d02;
+	padding-left: 3px;
+	padding-top: 4px;
+	padding-right: 3px;
+	left: 0; 
+}
+
+.contacts {
+	align-self: center;
+	font-size: 13px;
+}
+
+.footer-subheading {
+	color: white;
+	text-align: center;
+}
+
+.icons { 
+	align-self: center;
+	font-size: 25px;
+	word-spacing: 10px;
+}
+
+.icons i:hover {
+	color: #f97d37;
+}
+
+.info{
+	display: none;
+	position: absolute;
+	color: #f75c05;
+}
+
+ .icons i:hover span.info {
+	display: block;
+	position: absolute;
+	color: #f97d37;
+	background: #4d1d02;
+    font-size: 15px;
+    top: 26px;
+    left: 104px;
+}
